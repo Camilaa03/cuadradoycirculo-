@@ -1,23 +1,25 @@
 void setup(){
-  size(500,400);// X,Y
+  size(480,400);// X,Y
   //RGB
   fill(0,255,1);
-rect(370,100,80,80);
+rect(350,50,80,80);
 fill(0,6,255);
-ellipse(410,250,90,90); 
+ellipse(380,290,90,90); 
+
 }
  
 void draw(){
-textSize(15);
+textSize(20);
 fill(60);
-text("Esto es un cuadrado verde",90,150);
+text("Esto es un cuadrado verde",70,100);
 
-textSize(15);
+textSize(20);
 fill(60);
-text("Esto es un ellipse azul",90,250);
+text("Esto es un ellipse azul",70,300);
 
 }
 
+ 
  
  
  
